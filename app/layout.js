@@ -1,4 +1,5 @@
 import { Cormorant_Garamond } from "next/font/google";
+import Navbar from "./components/Navbar";
 import "./globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -19,7 +20,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={cormorant.className}>
-        <div className="w-screen h-screen">{children}</div>
+        <div className="w-screen h-screen">
+          <Navbar />
+          {children}
+        </div>
       </body>
     </html>
   );
