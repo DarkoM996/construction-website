@@ -19,9 +19,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={cormorant.className}>
-        <div className="w-screen h-screen bg-primary_backgroundColor-900">
-          {children}
-        </div>
+        <div className="w-screen h-screen">{children}</div>
       </body>
     </html>
   );
