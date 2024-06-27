@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
+import Navlink from "./Navlink";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -21,9 +22,7 @@ function Navbar() {
       {/* Responsive Menu on Desktop */}
       <div className="md:flex justify-center items-center gap-4 text-xl">
         {links.map((link) => (
-          <Link href={link.url} key={link.title}>
-            {link.title}
-          </Link>
+          <Navlink link={link} key={link.title} />
         ))}
       </div>
       {/* Menu Button */}
