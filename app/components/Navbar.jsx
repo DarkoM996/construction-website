@@ -23,7 +23,7 @@ const Navbar = () => {
       {/* Menu Button */}
       <div
         className="w-10 h-5 flex flex-col justify-between items-center z-50 relative"
-        onClick={() => setOpen(!open)}
+        onClick={() => setOpen((prev) => !prev)}
       >
         <div className="w-10 h-1 bg-white rounded"></div>
         <div className="w-10 h-1 bg-white rounded"></div>
