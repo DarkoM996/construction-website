@@ -19,7 +19,7 @@ const Hero = () => {
           <button className="px-8 py-4 bg-white text-black rounded-full border border-black">
             Button 1
           </button>
-          <button className="px-8 py-4 bg-black text-white rounded-full border border-white">
+          <button className="px-8 py-4 bg-primary_backgroundColor-900 text-white rounded-full border border-white">
             Button 2
           </button>
         </div>
