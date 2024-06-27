@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 
-const Navbar = () => {
+function Navbar() {
   const [open, setOpen] = useState(false);
 
   const links = [
@@ -19,7 +19,7 @@ const Navbar = () => {
         CamYork
       </Link>
       {/* Responsive Menu on Desktop */}
-      <div className="hidden md:flex justify-center items-center gap-4 text-xl">
+      <div className="md:flex justify-center items-center gap-4 text-xl">
         {links.map((link) => (
           <Link href={link.url} key={link.title}>
             {link.title}
@@ -46,6 +46,6 @@ const Navbar = () => {
       )}
     </div>
   );
-};
+}
 
 export default Navbar;
