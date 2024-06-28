@@ -5,12 +5,12 @@ import Image from "next/image";
 // This will have a component structure similar to the React Traversy Crash Course 2024.. empty fragments filled with bunch of components
 const Hero = () => {
   return (
-    <div className="max-w-screen-3xl mx-auto w-full h-[90%] relative px-6 py-4 ">
+    <div className="max-w-screen-3xl mx-auto w-full h-[85%] relative px-6 py-4 ">
       {/* Image Container */}
-      <div className="relative w-full h-[70%] object-cover">
+      <div className="relative w-full h-[75%] object-cover">
         <Image
-          priority
-          alt=""
+          priority={true}
+          alt="hero image"
           src={hero}
           height={800}
           width={800}
@@ -18,7 +18,7 @@ const Hero = () => {
         />
       </div>
       {/* Text Container */}
-      <div className="flex flex-col md:flex-row md:justify-between items-center md:items-start gap-6 w-full h-1/3 px:6 py-4">
+      <div className="flex flex-col md:flex-row md:justify-between items-center  gap-6 w-full h-1/3 px:6 py-4">
         {/* Heading */}
         <div className="w-full md:w-1/2 lg:w-full">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-balance">
