@@ -20,7 +20,7 @@ const Hero = () => {
       {/* Text Container */}
       <div className="flex flex-col md:flex-row md:justify-between items-center  gap-6 w-full h-1/3 px:6 py-4">
         {/* Heading */}
-        <div className="w-full md:w-1/2 lg:w-full">
+        <div className="w-full md:w-1/2 lg:w-full h-full">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-balance">
             Hotel Construction <br /> Amplified
           </h1>
@@ -35,10 +35,10 @@ const Hero = () => {
           </p>
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row w-full gap-4">
-            <button className="px-8 py-4 bg-white text-black rounded-full border border-black w-full lg:w-1/2">
+            <button className="px-8 py-4 bg-white text-black rounded-full border border-black w-full sm:w-[160px]">
               Get Started
             </button>
-            <button className="px-8 py-4 bg-primary_backgroundColor-900 text-white rounded-full border border-white w-full  lg:w-1/2">
+            <button className="px-8 py-4 bg-primary_backgroundColor-900 text-white rounded-full border border-white w-full  sm:w-[160px]">
               Projects
             </button>
           </div>
