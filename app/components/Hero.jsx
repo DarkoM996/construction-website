@@ -14,7 +14,7 @@ const Hero = () => {
           src={hero}
           height={800}
           width={800}
-          className=" object-cover w-full h-full bg-center"
+          className=" object-cover w-full h-full bg-center rounded-2xl"
         />
       </div>
       {/* Text Container */}
@@ -22,19 +22,19 @@ const Hero = () => {
         {/* Heading */}
         <div className="w-full">
           <h1 className="text-5xl lg:text-7xl font-bold">
-            Hotel Construction Amplified
+            Hotel Construction <br /> Amplified
           </h1>
         </div>
         {/* Text + Buttons */}
-        <div className="flex flex-col justify-center items-center gap-4 lg:gap-6 w-full md:w-3/4">
-          <p className="text-balance w-full md:w-3/4">
+        <div className="flex flex-col justify-end items-center gap-4 lg:gap-6 w-full md:w-1/2">
+          <p className="text-balance w-full ">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos
             aliquid rerum beatae, non ea officia repellat architecto? Alias
             tenetur natus aspernatur earum quibusdam perspiciatis, est error
             minus eveniet beatae sunt.
           </p>
           {/* Buttons */}
-          <div className="flex flex-col md:flex-row justify-center items-start w-full gap-4">
+          <div className="flex flex-col md:flex-row justify-start items-start w-full gap-4">
             <button className="px-8 py-4 bg-white text-black rounded-full border border-black">
               Button 1
             </button>
