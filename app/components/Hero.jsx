@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="max-w-screen-3xl mx-auto w-full h-[85%] relative px-6 py-4 ">
       {/* Image Container */}
-      <div className="relative w-full h-[75%] object-cover">
+      <div className="relative w-full h-[75%] object-cover bg-center">
         <Image
           priority={true}
           alt="hero image"
