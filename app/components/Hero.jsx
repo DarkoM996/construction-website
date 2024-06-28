@@ -35,10 +35,10 @@ const Hero = () => {
           </p>
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row w-full gap-4">
-            <button className="px-8 py-4 bg-white text-black rounded-full border border-black w-full sm:w-[160px]">
+            <button className="px-8 py-4 bg-white hover:bg-primary_lighterColor-200 text-black rounded-full border border-black w-full sm:w-[160px]">
               Get Started
             </button>
-            <button className="px-8 py-4 bg-primary_backgroundColor-900 text-white rounded-full border border-white w-full  sm:w-[160px]">
+            <button className="px-8 py-4 bg-primary_backgroundColor-900 hover:bg-primary_backgroundColor-800 text-white rounded-full border border-white w-full  sm:w-[160px]">
               Projects
             </button>
           </div>
