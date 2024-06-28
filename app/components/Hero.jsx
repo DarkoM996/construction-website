@@ -26,7 +26,7 @@ const Hero = () => {
           </h1>
         </div>
         {/* Text + Buttons */}
-        <div className="flex flex-col justify-end items-center gap-4 lg:gap-6 w-full md:w-1/2 lg:1/4 ">
+        <div className="flex flex-col justify-start items-center gap-4 lg:gap-6 w-full md:w-1/2 lg:1/4 ">
           <p className="text-balance w-full">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos
             aliquid rerum beatae, non ea officia repellat architecto? Alias
