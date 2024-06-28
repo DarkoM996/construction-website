@@ -20,14 +20,14 @@ const Hero = () => {
       {/* Text Container */}
       <div className="flex flex-col md:flex-row md:justify-between items-center  gap-6 w-full h-1/3 px:6 py-4">
         {/* Heading */}
-        <div className="w-full md:w-1/2 lg:w-full h-full">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-balance">
-            Hotel Construction <br /> Amplified
+        <div className="w-full md:w-1/2 lg:w-full">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-balance w-full lg:w-2/3">
+            Hotel Construction Amplified
           </h1>
         </div>
         {/* Text + Buttons */}
-        <div className="flex flex-col justify-end items-center gap-4 lg:gap-6 w-full md:w-1/2 lg:1/3 ">
-          <p className="text-balance w-full ">
+        <div className="flex flex-col justify-end items-center gap-4 lg:gap-6 w-full md:w-1/2 lg:1/4 ">
+          <p className="text-balance w-full">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos
             aliquid rerum beatae, non ea officia repellat architecto? Alias
             tenetur natus aspernatur earum quibusdam perspiciatis, est error
