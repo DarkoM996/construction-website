@@ -7,14 +7,14 @@ const Hero = () => {
   return (
     <div className="max-w-screen-3xl mx-auto w-full h-[90%] relative px-6 py-4 ">
       {/* Image Container */}
-      <div className=" w-full">
+      <div className="relative w-full h-[70%] object-cover">
         <Image
           priority
           alt=""
           src={hero}
-          height={400}
-          width={400}
-          className=" object-cover w-1/2 h-full bg-center"
+          height={800}
+          width={800}
+          className=" object-cover w-full h-full bg-center"
         />
       </div>
       {/* Text Container */}
