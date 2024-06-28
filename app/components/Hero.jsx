@@ -12,8 +12,7 @@ const Hero = () => {
           priority={true}
           alt="hero image"
           src={hero}
-          height={800}
-          width={800}
+          fill
           className=" object-cover w-full h-full bg-center rounded-2xl"
         />
       </div>
