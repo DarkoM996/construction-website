@@ -41,7 +41,7 @@ function Navbar() {
 
   const listVariants = {
     closed: {
-      x: "100vw",
+      x: "20vw",
     },
 
     opened: {
