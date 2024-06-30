@@ -39,6 +39,16 @@ function Navbar() {
     },
   };
 
+  const listVariants = {
+    closed: {
+      x: "100vw",
+    },
+
+    opened: {
+      x: 0,
+    },
+  };
+
   const links = [
     { url: "/", title: "Home" },
     { url: "/about", title: "About" },
@@ -92,13 +102,18 @@ function Navbar() {
           {/* Mobile Menu List */}
           {/* Z index added so the menu can stay above the hero image */}
           {open && (
-            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-8 text-6xl bg-primary_lighterColor-200 text-black z-40">
+            <motion.div
+              variants={listVariants}
+              initial="closed"
+              animate="opened"
+              className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-8 text-6xl bg-primary_lighterColor-200 text-black z-40"
+            >
               {links.map((link) => (
                 <Link href={link.url} key={link.title}>
                   {link.title}
                 </Link>
               ))}
-            </div>
+            </motion.div>
           )}
         </div>
       </div>
