@@ -50,6 +50,17 @@ function Navbar() {
     },
   };
 
+  const listItemVariants = {
+    closed: {
+      x: -10,
+      opacity: 0,
+    },
+    opened: {
+      x: 0,
+      opacity: 1,
+    },
+  };
+
   const links = [
     { url: "/", title: "Home" },
     { url: "/about", title: "About" },
@@ -73,9 +84,7 @@ function Navbar() {
         {/* Responsive Menu on Desktop */}
         <div className="hidden md:flex justify-center items-center gap-4 text-xl">
           {links.map((link) => (
-            <div className="">
-              <Navlink link={link} key={link.title} />
-            </div>
+            <Navlink link={link} key={link.title} />
           ))}
         </div>
         {/* Menu Button */}
