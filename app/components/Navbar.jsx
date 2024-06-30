@@ -7,13 +7,24 @@ import { motion } from "framer-motion";
 function Navbar() {
   const [open, setOpen] = useState(false);
 
+  // Animating the menu icon that I made with Tailwind.. here is how to do it with Framer Motion
+
   const topVariants = {
     closed: {
       rotate: 0,
     },
     opened: {
-      rotate: 35,
+      rotate: 45,
       backgroundColor: "rgb(0,0,0)",
+    },
+  };
+
+  const middleVariants = {
+    closed: {
+      opacity: 1,
+    },
+    opened: {
+      opacity: 0,
     },
   };
 
@@ -23,7 +34,7 @@ function Navbar() {
     },
 
     opened: {
-      rotate: -41,
+      rotate: -45,
       backgroundColor: "rgb(0,0,0)",
     },
   };
@@ -58,7 +69,7 @@ function Navbar() {
         {/* another div with class md:hidden that automatically makes mobile menu disappear on bigger screens */}
         <div className="md:hidden">
           <div
-            className="md:hidden w-10 h-4 flex flex-col justify-between items-center z-50 relative"
+            className="md:hidden w-10 h-8 flex flex-col justify-between items-center z-50 relative"
             onClick={() => setOpen((prev) => !prev)}
           >
             {/* the animate part works with conditionals. if it's open, use the opened variants.. else use the other variable. */}
@@ -68,9 +79,14 @@ function Navbar() {
               className="w-10 h-1 bg-white rounded origin-left"
             ></motion.div>
             <motion.div
+              variants={middleVariants}
+              animate={open ? "opened" : "closed"}
+              className="w-10 h-1 bg-white rounded"
+            ></motion.div>
+            <motion.div
               variants={bottomVariants}
               animate={open ? "opened" : "closed"}
-              className="w-10 h-1 bg-white rounded origin-center"
+              className="w-10 h-1 bg-white rounded origin-left"
             ></motion.div>
           </div>
           {/* Mobile Menu List */}
