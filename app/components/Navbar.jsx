@@ -41,7 +41,8 @@ function Navbar() {
 
   const listVariants = {
     closed: {
-      x: "20vw",
+      // Original was set to 100vh.. I switched to 50 for now
+      x: "50vw",
     },
 
     opened: {
