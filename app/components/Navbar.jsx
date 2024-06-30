@@ -48,6 +48,8 @@ function Navbar() {
     opened: {
       x: 0,
       transition: {
+        // This before Children is the original animation but after viewing it now.. without this, it seems way more smooth like this
+        // when: "beforeChildren",
         staggerChildren: 0.2,
       },
     },
