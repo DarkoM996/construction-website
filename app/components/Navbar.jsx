@@ -12,7 +12,7 @@ function Navbar() {
       rotate: 0,
     },
     opened: {
-      rotate: 45,
+      rotate: 35,
       backgroundColor: "rgb(0,0,0)",
     },
   };
@@ -23,7 +23,7 @@ function Navbar() {
     },
 
     opened: {
-      rotate: 45,
+      rotate: -41,
       backgroundColor: "rgb(0,0,0)",
     },
   };
@@ -40,7 +40,12 @@ function Navbar() {
     <div className="border-b border-primary_backgroundColor-700">
       <div className="max-w-screen-3xl mx-auto w-full h-20 flex justify-between items-center px-6 py-4 ">
         {/* Left Side Logo */}
-        <Link href="/" className="text-2xl text-transform: uppercase">
+        <Link
+          href="/"
+          // Written so to remove warning in console
+          as={false}
+          className="text-2xl text-transform: uppercase"
+        >
           CamYork
         </Link>
         {/* Responsive Menu on Desktop */}
@@ -53,19 +58,19 @@ function Navbar() {
         {/* another div with class md:hidden that automatically makes mobile menu disappear on bigger screens */}
         <div className="md:hidden">
           <div
-            className="md:hidden w-10 h-5 flex flex-col justify-between items-center z-50 relative"
+            className="md:hidden w-10 h-4 flex flex-col justify-between items-center z-50 relative"
             onClick={() => setOpen((prev) => !prev)}
           >
             {/* the animate part works with conditionals. if it's open, use the opened variants.. else use the other variable. */}
             <motion.div
               variants={topVariants}
               animate={open ? "opened" : "closed"}
-              className="w-10 h-1 bg-white rounded"
+              className="w-10 h-1 bg-white rounded origin-left"
             ></motion.div>
             <motion.div
               variants={bottomVariants}
               animate={open ? "opened" : "closed"}
-              className="w-10 h-1 bg-white rounded"
+              className="w-10 h-1 bg-white rounded origin-center"
             ></motion.div>
           </div>
           {/* Mobile Menu List */}
