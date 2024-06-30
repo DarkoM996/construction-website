@@ -73,7 +73,9 @@ function Navbar() {
         {/* Responsive Menu on Desktop */}
         <div className="hidden md:flex justify-center items-center gap-4 text-xl">
           {links.map((link) => (
-            <Navlink link={link} key={link.title} />
+            <div className="">
+              <Navlink link={link} key={link.title} />
+            </div>
           ))}
         </div>
         {/* Menu Button */}
@@ -109,10 +111,15 @@ function Navbar() {
               animate="opened"
               className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-8 text-6xl bg-primary_lighterColor-200 text-black z-40"
             >
+              {/* Adding a div with motion tag so this can be animated here. List item variants will be defined futher above */}
               {links.map((link) => (
-                <Link href={link.url} key={link.title}>
-                  {link.title}
-                </Link>
+                <motion.div
+                  variants={listItemVariants}
+                  className=""
+                  key={link.title}
+                >
+                  <Link href={link.url}>{link.title}</Link>
+                </motion.div>
               ))}
             </motion.div>
           )}
