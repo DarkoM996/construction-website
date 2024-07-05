@@ -11,7 +11,7 @@ const Hero = () => {
         <Image
           src={hero}
           alt="hero image"
-          className="w-full h-[500px] object-cover rounded-3xl bg-center"
+          className="w-full h-[600px] object-cover rounded-3xl bg-center"
         />
       </div>
       {/* Text */}
