@@ -3,43 +3,45 @@ import { FiArrowRight } from "react-icons/fi";
 
 const HoverImageLinks = () => {
   return (
-    <section className="max-w-screen-3xl mx-auto w-full h-full relative px-6 py-4 md:py-12 lg:py-24">
-      <Link
-        heading="Hotel Construction"
-        subheading="Building an elite hotel in Ontario"
-        imgSrc="../images/picture1.jpg"
-        href="/hotelconstruction"
-      />
-      <Link
-        heading="Roof Replacement"
-        subheading="Building a roof in Ontario"
-        imgSrc="../images/picture2.jpg"
-        href="/hotelconstruction"
-      />
-      <Link
-        heading="Carlton Hotel"
-        subheading="Building an elite hotel in Vancouver"
-        imgSrc="../images/picture3.jpg"
-        href="/hotelconstruction"
-      />
-      <Link
-        heading="Modern Building"
-        subheading="Building a modern building in Ottawa"
-        imgSrc="../images/picture4.jpg"
-        href="/hotelconstruction"
-      />
-      <Link
-        heading="Resident Building"
-        subheading="Building a residence in Vancouver"
-        imgSrc="../images/picture5.jpg"
-        href="/hotelconstruction"
-      />
-      <Link
-        heading="Hotel Elite"
-        subheading="Building an elite hotel in Toronto"
-        imgSrc="../images/picture6.jpg"
-        href="/hotelconstruction"
-      />
+    <section className="max-w-screen-3xl h-screen mx-auto px-4 py-4 sm:px-8">
+      <div className="max-w-screen-2xl mx-auto h-full relative">
+        <Link
+          heading="Hotel Construction"
+          subheading="Building an elite hotel in Ontario"
+          imgSrc="../images/picture1.jpg"
+          href="/hotelconstruction"
+        />
+        <Link
+          heading="Roof Replacement"
+          subheading="Building a roof in Ontario"
+          imgSrc="../images/picture2.jpg"
+          href="/hotelconstruction"
+        />
+        <Link
+          heading="Carlton Hotel"
+          subheading="Building an elite hotel in Vancouver"
+          imgSrc="../images/picture3.jpg"
+          href="/hotelconstruction"
+        />
+        <Link
+          heading="Modern Building"
+          subheading="Building a modern building in Ottawa"
+          imgSrc="../images/picture4.jpg"
+          href="/hotelconstruction"
+        />
+        <Link
+          heading="Resident Building"
+          subheading="Building a residence in Vancouver"
+          imgSrc="../images/picture5.jpg"
+          href="/hotelconstruction"
+        />
+        <Link
+          heading="Hotel Elite"
+          subheading="Building an elite hotel in Toronto"
+          imgSrc="../images/picture6.jpg"
+          href="/hotelconstruction"
+        />
+      </div>
     </section>
   );
 };

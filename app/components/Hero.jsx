@@ -5,9 +5,9 @@ import Image from "next/image";
 // This will have a component structure similar to the React Traversy Crash Course 2024.. empty fragments filled with bunch of components
 const Hero = () => {
   return (
-    <div className="max-w-screen-3xl mx-auto w-full h-[85%] relative px-6 py-4 ">
+    <div className="max-w-screen-3xl mx-auto w-full h-full relative px-6 py-4 ">
       {/* Image Container */}
-      <div className="relative w-full h-[75%] object-cover bg-center">
+      <div className="relative w-full h-[70%] object-cover bg-center">
         <Image
           priority={true}
           alt="hero image"
@@ -17,16 +17,16 @@ const Hero = () => {
         />
       </div>
       {/* Text Container */}
-      <div className="flex flex-col md:flex-row md:justify-between items-center  gap-6 w-full h-1/3 px:6 py-4">
+      <div className="h-1/3 w-full flex flex-col justify-center items-center md:flex-row  gap-6 px-6 py-4 lg:px-8">
         {/* Heading */}
-        <div className="w-full md:w-1/2 lg:w-full h-full">
+        <div className="w-full md:w-1/2 lg:w-full">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-balance w-full lg:w-2/3">
             Hotel Construction Amplified
           </h1>
         </div>
         {/* Text + Buttons */}
-        <div className="flex flex-col justify-start items-center gap-4 lg:gap-6 w-full md:w-1/2 lg:w-1/3 ">
-          <p className="text-wrap w-full">
+        <div className="flex flex-col justify-center items-center gap-4 lg:gap-6 w-full md:w-1/2 lg:w-1/3  ">
+          <p className="text-wrap w-full h-full">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos
             aliquid rerum beatae, non ea officia repellat architecto? Alias
             tenetur natus aspernatur earum quibusdam perspiciatis, est error
