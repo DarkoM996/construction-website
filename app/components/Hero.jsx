@@ -19,7 +19,7 @@ const Hero = () => {
       {/* Text Container */}
       <div className="flex flex-col md:flex-row md:justify-between items-center  gap-6 w-full h-1/3 px:6 py-4">
         {/* Heading */}
-        <div className="w-full md:w-1/2 lg:w-full">
+        <div className="w-full md:w-1/2 lg:w-full h-full">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-balance w-full lg:w-2/3">
             Hotel Construction Amplified
           </h1>
