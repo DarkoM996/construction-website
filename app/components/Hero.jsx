@@ -3,9 +3,11 @@ import hero from "../images/hero.jpg";
 import Image from "next/image";
 
 // This will have a component structure similar to the React Traversy Crash Course 2024.. empty fragments filled with bunch of components
+// In Next Js, there are 2 ways to get sections to get full screen without overlap: h-[1080px] aka custom value. And then in a div below, you can write h-full so it can take a full value of that number.
+// Second way it works.. is by putting a min-h-screen class which is min-height: 100vh CSS property;
 const Hero = () => {
   return (
-    <main className="max-w-screen-3xl mx-auto w-full h-[1000px] relative px-6 py-4 bg-primary_backgroundColor-800">
+    <main className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-4 md:px-8 md:py-6 bg-primary_backgroundColor-850">
       {/* Image Container */}
       <div className="relative h-fit ">
         <Image
@@ -16,9 +18,9 @@ const Hero = () => {
         />
       </div>
       {/* Text */}
-      <div className="h-fit w-full flex flex-col justify-center items-center md:flex-row md:justify-between gap-4 py-5">
+      <div className="h-full w-full flex flex-col justify-center items-center md:flex-row md:justify-between gap-4 py-5">
         <div className="w-full md:w-1/2 lg:w-full">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-balance w-full lg:w-2/3 h-full">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-wrap w-full lg:w-2/3 h-full">
             Hotel Construction Amplified
           </h1>
         </div>
