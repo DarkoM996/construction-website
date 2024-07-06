@@ -10,31 +10,31 @@ const HoverImageLinks = () => {
         <Link
           heading="Hotel Construction"
           subheading="Building an elite hotel in Ontario"
-          imgSrc="/images/picture6.jpg"
+          imgSrc="/images/picture1.jpg"
           href="/hotelconstruction"
         />
         <Link
           heading="Roof Replacement"
           subheading="Building a roof in Ontario"
-          imgSrc="/images/picture6.jpg"
+          imgSrc="/images/picture2.jpg"
           href="/hotelconstruction"
         />
         <Link
           heading="Carlton Hotel"
           subheading="Building an elite hotel in Vancouver"
-          imgSrc="/images/picture6.jpg"
+          imgSrc="/images/picture3.jpg"
           href="/hotelconstruction"
         />
         <Link
           heading="Modern Building"
           subheading="Building a modern building in Ottawa"
-          imgSrc="/images/picture6.jpg"
+          imgSrc="/images/picture4.jpg"
           href="/hotelconstruction"
         />
         <Link
           heading="Resident Building"
           subheading="Building a residence in Vancouver"
-          imgSrc="/images/picture6.jpg"
+          imgSrc="/images/picture5.jpg"
           href="/hotelconstruction"
         />
         <Link
@@ -70,6 +70,25 @@ const Link = ({ heading, subheading, imgSrc, href }) => {
       {/* TODO: Add image here */}
 
       <motion.img
+        variants={{
+          initial: {
+            scale: 0,
+            rotate: "-12.5deg",
+          },
+          whileHover: {
+            scale: 1,
+            rotate: "12.5deg",
+          },
+        }}
+        style={{
+          top: "50%",
+          left: "50%",
+          translateX: "-50%",
+          translateY: "-50%",
+        }}
+        transition={{
+          type: "spring",
+        }}
         src={imgSrc}
         alt={`Image representing a link for ${heading}`}
         className="absolute z-0 h-24 w-32 rounded-lg object-cover md:h-48 md:w-64"

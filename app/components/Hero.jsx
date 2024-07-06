@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import hero from "/public/images/picture6.jpg";
 import Image from "next/image";
