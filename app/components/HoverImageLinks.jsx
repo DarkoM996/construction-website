@@ -10,31 +10,31 @@ const HoverImageLinks = () => {
         <Link
           heading="Hotel Construction"
           subheading="Building an elite hotel in Ontario"
-          imgSrc="../images/picture1.jpg"
+          imgSrc="/images/picture1.jpg"
           href="/hotelconstruction"
         />
         <Link
           heading="Roof Replacement"
           subheading="Building a roof in Ontario"
-          imgSrc="../images/picture2.jpg"
+          imgSrc="/images/picture2.jpg"
           href="/hotelconstruction"
         />
         <Link
           heading="Carlton Hotel"
           subheading="Building an elite hotel in Vancouver"
-          imgSrc="../images/picture3.jpg"
+          imgSrc="/images/picture3.jpg"
           href="/hotelconstruction"
         />
         <Link
           heading="Modern Building"
           subheading="Building a modern building in Ottawa"
-          imgSrc="../images/picture4.jpg"
+          imgSrc="/images/picture4.jpg"
           href="/hotelconstruction"
         />
         <Link
           heading="Resident Building"
           subheading="Building a residence in Vancouver"
-          imgSrc="../images/picture5.jpg"
+          imgSrc="/images/picture5.jpg"
           href="/hotelconstruction"
         />
         <Link
@@ -68,6 +68,12 @@ const Link = ({ heading, subheading, imgSrc, href }) => {
         </span>
       </div>
       {/* TODO: Add image here */}
+
+      <motion.img
+        src={imgSrc}
+        alt={`Image representing a link for ${heading}`}
+        className="absolute z-0 h-24 w-32 rounded-lg object-cover md:h-48 md:w-64"
+      />
 
       {/* Adding the arrow */}
       <motion.div
