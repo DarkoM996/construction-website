@@ -1,4 +1,6 @@
+"use client";
 import React from "react";
+import { motion } from "framer-motion";
 import { FiArrowRight } from "react-icons/fi";
 
 const HoverImageLinks = () => {
@@ -66,9 +68,9 @@ const Link = ({ heading, subheading, imgSrc, href }) => {
       {/* TODO: Add image here */}
 
       {/* Adding the arrow */}
-      <div className="relative z-10 p-4">
+      <motion.div className="relative z-10 p-4">
         <FiArrowRight className="text-4xl text-primary_lighterColor-200" />
-      </div>
+      </motion.div>
     </a>
   );
 };

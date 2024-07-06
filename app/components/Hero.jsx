@@ -11,6 +11,7 @@ const Hero = () => {
       {/* Image Container */}
       <div className="relative h-fit ">
         <Image
+          priority={true}
           src={hero}
           alt="hero image"
           // just experiment with different height of the image at different width sizes. The original h-[600px] can also work.
