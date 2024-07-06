@@ -52,7 +52,9 @@ export default HoverImageLinks;
 
 const Link = ({ heading, subheading, imgSrc, href }) => {
   return (
-    <a
+    <motion.a
+      initial="initial"
+      whileHover="whileHover"
       href={href}
       className="group relative flex justify-between items-center border-b border-primary_backgroundColor-700 py-4 transition-colors duration-500 hover:border-neutral-400 md:py-6"
     >
@@ -68,9 +70,23 @@ const Link = ({ heading, subheading, imgSrc, href }) => {
       {/* TODO: Add image here */}
 
       {/* Adding the arrow */}
-      <motion.div className="relative z-10 p-4">
+      <motion.div
+        variants={{
+          initial: {
+            x: "25%",
+            opacity: 0,
+          },
+          whileHover: {
+            x: "0%",
+            opacity: 1,
+          },
+        }}
+        transition={{
+          type: "spring",
+        }}
+      >
         <FiArrowRight className="text-4xl text-primary_lighterColor-200" />
       </motion.div>
-    </a>
+    </motion.a>
   );
 };
