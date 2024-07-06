@@ -7,7 +7,7 @@ import Image from "next/image";
 // Second way it works.. is by putting a min-h-screen class which is min-height: 100vh CSS property;
 const Hero = () => {
   return (
-    <main className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-4 md:px-8 md:py-6 bg-primary_backgroundColor-850">
+    <main className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-4">
       {/* Image Container */}
       <div className="relative h-fit ">
         <Image
