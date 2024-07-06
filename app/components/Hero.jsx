@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../images/hero.jpg";
+import hero from "/public/images/picture6.jpg";
 import Image from "next/image";
 
 // This will have a component structure similar to the React Traversy Crash Course 2024.. empty fragments filled with bunch of components

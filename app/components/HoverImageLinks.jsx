@@ -10,37 +10,37 @@ const HoverImageLinks = () => {
         <Link
           heading="Hotel Construction"
           subheading="Building an elite hotel in Ontario"
-          imgSrc="/images/picture1.jpg"
+          imgSrc="/images/picture6.jpg"
           href="/hotelconstruction"
         />
         <Link
           heading="Roof Replacement"
           subheading="Building a roof in Ontario"
-          imgSrc="/images/picture2.jpg"
+          imgSrc="/images/picture6.jpg"
           href="/hotelconstruction"
         />
         <Link
           heading="Carlton Hotel"
           subheading="Building an elite hotel in Vancouver"
-          imgSrc="/images/picture3.jpg"
+          imgSrc="/images/picture6.jpg"
           href="/hotelconstruction"
         />
         <Link
           heading="Modern Building"
           subheading="Building a modern building in Ottawa"
-          imgSrc="/images/picture4.jpg"
+          imgSrc="/images/picture6.jpg"
           href="/hotelconstruction"
         />
         <Link
           heading="Resident Building"
           subheading="Building a residence in Vancouver"
-          imgSrc="/images/picture5.jpg"
+          imgSrc="/images/picture6.jpg"
           href="/hotelconstruction"
         />
         <Link
           heading="Hotel Elite"
           subheading="Building an elite hotel in Toronto"
-          imgSrc="../images/picture6.jpg"
+          imgSrc="/images/picture6.jpg"
           href="/hotelconstruction"
         />
       </div>
