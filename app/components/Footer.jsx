@@ -9,7 +9,7 @@ const Footer = () => {
           Contact Us
         </h2>
       </div>
-      <div className="flex flex-col md:flex-row justify-between items-center gap-8 px-6 py-4 w-full h-fit">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-8 px-6 py-4 w-full h-fit bg-black">
         <p className="text-transform: uppercase">Privacy Policy</p>
         <p>@2024 CamYork</p>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
