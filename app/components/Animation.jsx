@@ -21,9 +21,11 @@ const logos = [
 const Animation = () => {
   return (
     <div className="max-w-screen-3xl mx-auto h-screen relative px-6 py-4">
-      Animation
-      <div className="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
-        <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+      <h2 className="text-4xl md:text-5xl lg:text-6xl py-12">
+        Project Showcase
+      </h2>
+      <div className="w-full h-2/3 inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+        <ul className="flex items-center justify-center md:justify-start [&_li]:mx-4 [&_img]:max-w-[600px]  [&_img]:rounded-3xl animate-infinite-scroll rounded-3xl ">
           {logos.map((logo, index) => (
             <li key={index}>
               <Image src={logo.src} alt={logo.alt} />
@@ -31,7 +33,7 @@ const Animation = () => {
           ))}
         </ul>
         <ul
-          className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
+          className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-[600px] [&_img]:rounded-3xl  animate-infinite-scroll rounded-3xl"
           aria-hidden="true"
         >
           {logos.map((logo, index) => (
