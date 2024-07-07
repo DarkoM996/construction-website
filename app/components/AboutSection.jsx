@@ -15,7 +15,7 @@ const AboutSection = () => {
       {/* Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  md:gap-12 py-8">
         <h2 className="text-4xl md:text-5xl lg:text-6xl col-span-1 md:col-span-2">
-          About Section
+          About Us
         </h2>
         <div className="col-span-2 lg:col-span-1 flex flex-col gap-4">
           <h4 className="text-wrap text-2xl md:text-3xl text-primary_lighterColor-500">
