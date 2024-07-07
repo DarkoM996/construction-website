@@ -10,13 +10,13 @@ const Hero = () => {
   return (
     <main className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-4">
       {/* Image Container */}
-      <div className="relative h-fit ">
+      <div className="relative h-2/3 ">
         <Image
           priority={true}
           src={hero}
           alt="hero image"
           // just experiment with different height of the image at different width sizes. The original h-[600px] can also work.
-          className="w-full h-[400px] md:h-[600px] object-cover rounded-3xl bg-center"
+          className="w-full h-[600px]  object-cover rounded-3xl bg-center"
         />
       </div>
       {/* Text */}
