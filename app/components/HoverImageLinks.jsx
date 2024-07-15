@@ -66,7 +66,7 @@ const Link = ({ heading, subheading, imgSrc, href }) => {
         <span className="relative z-10 py-4 block text-4xl font-bold text-neutral-500 transition-colors duration-500 md:text-5xl group-hover:text-white">
           {heading}
         </span>
-        <span className="relative z-0 block text-primary_lighterColor-500 transition-colors duration-500 group-hover:text-white">
+        <span className="relative z-0 block text-white transition-colors duration-500 group-hover:text-white">
           {subheading}
         </span>
       </div>
