@@ -40,6 +40,7 @@ module.exports = {
         },
       },
     },
+    // This was for an animation demo
     animation: {
       "infinite-scroll": "infinite-scroll 25s linear infinite",
     },
