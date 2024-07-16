@@ -81,7 +81,6 @@ function Navbar() {
         <Link
           href="/"
           // Written so to remove warning in console
-          as={false}
           className="text-2xl text-transform: uppercase"
         >
           CamYork
@@ -94,11 +93,8 @@ function Navbar() {
         </div>
         {/* Menu Button */}
         {/* another div with class md:hidden that automatically makes mobile menu disappear on bigger screens */}
-        <div className="md:hidden">
-          <div
-            className="md:hidden w-10 h-8 flex flex-col justify-between items-center z-50 relative"
-            onClick={() => setOpen((prev) => !prev)}
-          >
+        <div className="md:hidden" onClick={() => setOpen((prev) => !prev)}>
+          <button className="w-10 h-8 flex flex-col justify-between items-center z-50 relative">
             {/* the animate part works with conditionals. if it's open, use the opened variants.. else use the other variable. */}
             <motion.div
               variants={topVariants}
@@ -115,7 +111,7 @@ function Navbar() {
               animate={open ? "opened" : "closed"}
               className="w-10 h-1 bg-white rounded origin-left"
             ></motion.div>
-          </div>
+          </button>
           {/* Mobile Menu List */}
           {/* Z index added so the menu can stay above the hero image */}
           {open && (
@@ -132,7 +128,9 @@ function Navbar() {
                   className=""
                   key={link.title}
                 >
-                  <Link href={link.url}>{link.title}</Link>
+                  <Link href={link.url} key={link.title}>
+                    {link.title}
+                  </Link>
                 </motion.div>
               ))}
             </motion.div>
