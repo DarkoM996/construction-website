@@ -33,15 +33,17 @@ const AboutValue = () => {
       {/* Grid #2 */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-16 py-8 md:py-12 lg:py-16">
         {/* Paragraph */}
-        <h2 className="text-4xl md:text-5xl lg:text-6xl">Area Of Expertise</h2>
+        <h2 className="text-4xl md:text-5xl lg:text-6xl">What We Do</h2>
         {/* Image */}
         <div className="relative h-full">
           {/* Paragraph */}
           <div className="py-4 col-span-1 place-content-end">
             <p>
               We provide construction management for residential, commercial and
-              hospitality applications. We may also act as development managers
-              for individuals looking to build a unique project.
+              hospitality applications. Utilizing our expertise, knowledge and
+              experience in the appropriate ways so we can achieve true
+              excellence. We may also act as development managers for
+              individuals looking to build a unique project.
             </p>
           </div>
           <Image
