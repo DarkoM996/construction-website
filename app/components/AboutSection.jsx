@@ -25,7 +25,7 @@ const AboutSection = () => {
           </h4>
           <div className="gap-2 flex flex-row justify-start items-center">
             <Link
-              href="/contact"
+              href="/about"
               className="text-2xl text-primary_customGrey-100 hover:underline"
             >
               See More
