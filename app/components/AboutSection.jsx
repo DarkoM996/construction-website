@@ -24,10 +24,10 @@ const AboutSection = () => {
             industry experience.
           </h4>
           <div className="gap-2 flex flex-row justify-start items-center">
-            <Link href="/contact" className="text-2xl">
+            <Link href="/contact" className="text-2xl hover:underline">
               Something
             </Link>
-            <FiArrowRight className="text-xl" />
+            <FiArrowRight className="text-3xl" />
           </div>
         </div>
         <div className="relative h-full col-span-2 md:col-span-3">
