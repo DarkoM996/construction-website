@@ -1,7 +1,12 @@
 import React from "react";
+import AboutHero from "../components/AboutHero";
 
 const page = () => {
-  return <div>page</div>;
+  return (
+    <>
+      <AboutHero />
+    </>
+  );
 };
 
 export default page;
