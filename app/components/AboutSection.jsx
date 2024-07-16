@@ -11,7 +11,7 @@ import {
 
 const AboutSection = () => {
   return (
-    <div className="max-w-screen-3xl mx-auto w-full h-fit relative px-6 py-4 md:py-16 lg:py-24">
+    <div className="max-w-screen-2xl mx-auto w-full h-fit relative px-6 py-4 md:py-16 lg:py-24">
       {/* Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  md:gap-12 py-8">
         <h2 className="text-4xl md:text-5xl lg:text-6xl col-span-1 md:col-span-2">

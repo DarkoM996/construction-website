@@ -5,7 +5,7 @@ import gridimg2 from "../../public/images/picture14.jpg";
 
 const AboutValue = () => {
   return (
-    <div className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-4 md:py-10 lg:py-24">
+    <div className="max-w-screen-2xl mx-auto w-full min-h-screen relative px-6 py-4 md:py-10 lg:py-24">
       {/* Grid #1 */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 lg:gap-16">
         {/* Paragraph */}

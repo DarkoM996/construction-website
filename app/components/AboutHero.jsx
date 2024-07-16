@@ -4,7 +4,7 @@ import backgroundimg from "../../public/images/picture12.jpg";
 
 const AboutHero = () => {
   return (
-    <div className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-4 md:py-10 lg:pb-24">
+    <div className="max-w-screen-2xl mx-auto w-full min-h-screen relative px-6 py-4 md:py-10 lg:pb-24">
       {/* Container Setup with flex */}
       <div className="flex flex-col justify-center items-start w-full h-full gap-6 md:gap-10">
         <h1 className="text-5xl md:text-6xl lg:text-7xl py-4">Studio</h1>
