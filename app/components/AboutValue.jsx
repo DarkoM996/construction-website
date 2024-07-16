@@ -9,9 +9,11 @@ const AboutValue = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Paragraph */}
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A temporibus
-          ad nemo labore sed delectus fugiat laudantium culpa nulla rem mollitia
-          nihil id aut cumque, corrupti, obcaecati doloremque soluta dolor?
+          In the area of construction and design, we are focusing our energy
+          towards taking on challenging projects. Our company ethos is driven by
+          thinking outside the box. Pairing together unconventional and thought
+          provoking design ideas and bringing them to life in order to build
+          better projects, enhance client value and drive new opportunities.
         </p>
         {/* Image */}
         <div className="relative h-[500px]">
@@ -27,3 +29,7 @@ const AboutValue = () => {
 };
 
 export default AboutValue;
+
+//
+
+// We provide construction management for residential, commercial and hospitality applications. We may also act as development managers for individuals looking to build a unique project.
