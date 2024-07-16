@@ -1,5 +1,5 @@
 import React from "react";
-import { FiFacebook, FiInstagram, FiTwitter, FiYoutube } from "react-icons/fi";
+import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -15,10 +15,10 @@ const Footer = () => {
         <p className="text-transform: uppercase">Privacy Policy</p>
         <p>@2024 CamYork</p>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-          <FiInstagram className="text-2xl" />
-          <FiFacebook className="text-2xl" />
-          <FiYoutube className="text-2xl" />
-          <FiTwitter className="text-2xl" />
+          <FaFacebook className="text-2xl" />
+          <FaInstagram className="text-2xl" />
+          <FaYoutube className="text-2xl" />
+          <FaTwitter className="text-2xl" />
         </div>
       </div>
     </footer>
