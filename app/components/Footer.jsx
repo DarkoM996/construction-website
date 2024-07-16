@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="max-w-screen-3xl mx-auto w-full h-[80%] relative">
+    <footer className="max-w-screen-3xl mx-auto w-full h-3/4 relative">
       {/* CTA centered in the middle */}
       <div className="flex flex-col justify-center items-center w-full h-full ">
         <h2 className="text-5xl md:text-6xl lg:text-8xl items-center">
