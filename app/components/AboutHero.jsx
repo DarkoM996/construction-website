@@ -7,7 +7,7 @@ const AboutHero = () => {
     <div className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-4">
       {/* Container Setup with flex */}
       <div className="flex flex-col justify-center items-start w-full h-full gap-6 md:gap-10">
-        <h1 className="text-5xl md:text-6xl lg:text-7xl">Studio</h1>
+        <h1 className="text-5xl md:text-6xl lg:text-7xl py-4">Studio</h1>
         {/* Image Container */}
         <div className="relative w-full h-[500px] lg:h-[700px]">
           <Image
