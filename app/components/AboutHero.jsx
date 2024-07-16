@@ -12,6 +12,8 @@ const AboutHero = () => {
         <div className="relative w-full h-[500px] lg:h-[700px]">
           <Image
             priority={true}
+            height={500}
+            width={1000}
             src={backgroundimg}
             alt="/"
             className="object-cover w-full h-full rounded-3xl"
