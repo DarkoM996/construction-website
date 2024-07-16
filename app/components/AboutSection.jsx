@@ -18,14 +18,17 @@ const AboutSection = () => {
           About Us
         </h2>
         <div className="col-span-2 lg:col-span-1 flex flex-col gap-4">
-          <h4 className="text-wrap text-2xl md:text-3xl text-primary_lighterColor-500">
+          <h4 className="text-wrap text-2xl md:text-3xl text-primary_customGrey-100">
             We are an experienced team of construction professionals, and
             designers operating within Canada, with a combined 24 years of
             industry experience.
           </h4>
           <div className="gap-2 flex flex-row justify-start items-center">
-            <Link href="/contact" className="text-2xl hover:underline">
-              Something
+            <Link
+              href="/contact"
+              className="text-2xl text-primary_customGrey-100 hover:underline"
+            >
+              See More
             </Link>
             <FiArrowRight className="text-3xl" />
           </div>

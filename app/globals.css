@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-primary_backgroundColor-900 text-white;
+    @apply bg-primary_backgroundColor-900 text-primary_lighterColor-200;
   }
 }
 
