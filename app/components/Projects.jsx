@@ -11,7 +11,7 @@ const Projects = () => {
       </h2>
       {/* Grid */}
       <div className="max-w-screen-2xl mx-auto w-full h-full grid grid-cols-1 md:grid-cols-2 gap-6">
-        {/* Grid element */}
+        {/* Grid element #1 */}
         <div className="relative">
           <Image
             src={gridimg2}
@@ -23,86 +23,6 @@ const Projects = () => {
             <h4 className="text-4xl">Project Name</h4>
             <FaArrowRight className="text-3xl" />
           </div>
-        </div>
-        <div>
-          <div className="py-4 col-span-1 place-content-end">
-            <p>
-              We provide construction management for residential, commercial and
-              hospitality applications. Utilizing our expertise, knowledge and
-              experience in the appropriate ways so we can achieve true
-              excellence. We may also act as development managers for
-              individuals looking to build a unique project.
-            </p>
-          </div>
-          <Image
-            src={gridimg2}
-            alt="grid image"
-            className="object-cover w-full h-[500px] rounded-3xl"
-          />
-        </div>
-        <div>
-          <div className="py-4 col-span-1 place-content-end">
-            <p>
-              We provide construction management for residential, commercial and
-              hospitality applications. Utilizing our expertise, knowledge and
-              experience in the appropriate ways so we can achieve true
-              excellence. We may also act as development managers for
-              individuals looking to build a unique project.
-            </p>
-          </div>
-          <Image
-            src={gridimg2}
-            alt="grid image"
-            className="object-cover w-full h-[500px] rounded-3xl"
-          />
-        </div>
-        <div>
-          <div className="py-4 col-span-1 place-content-end">
-            <p>
-              We provide construction management for residential, commercial and
-              hospitality applications. Utilizing our expertise, knowledge and
-              experience in the appropriate ways so we can achieve true
-              excellence. We may also act as development managers for
-              individuals looking to build a unique project.
-            </p>
-          </div>
-          <Image
-            src={gridimg2}
-            alt="grid image"
-            className="object-cover w-full h-[500px] rounded-3xl"
-          />
-        </div>
-        <div>
-          <div className="py-4 col-span-1 place-content-end">
-            <p>
-              We provide construction management for residential, commercial and
-              hospitality applications. Utilizing our expertise, knowledge and
-              experience in the appropriate ways so we can achieve true
-              excellence. We may also act as development managers for
-              individuals looking to build a unique project.
-            </p>
-          </div>
-          <Image
-            src={gridimg2}
-            alt="grid image"
-            className="object-cover w-full h-[500px] rounded-3xl"
-          />
-        </div>
-        <div>
-          <div className="py-4 col-span-1 place-content-end">
-            <p>
-              We provide construction management for residential, commercial and
-              hospitality applications. Utilizing our expertise, knowledge and
-              experience in the appropriate ways so we can achieve true
-              excellence. We may also act as development managers for
-              individuals looking to build a unique project.
-            </p>
-          </div>
-          <Image
-            src={gridimg2}
-            alt="grid image"
-            className="object-cover w-full h-[500px] rounded-3xl"
-          />
         </div>
       </div>
     </div>
