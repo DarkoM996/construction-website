@@ -55,7 +55,7 @@ const Projects = () => {
         <div className="flex flex-col justify-center items-center gap-4 md:mb-10">
           <Link
             href="/projects/furnico"
-            className="relative w-full h-[520px] md:h-[1200px]"
+            className="relative w-full  h-[520px] md:h-[700px]"
           >
             <Image
               priority={true}
