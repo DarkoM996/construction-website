@@ -93,6 +93,7 @@ function Navbar() {
         </div>
         {/* Menu Button */}
         {/* another div with class md:hidden that automatically makes mobile menu disappear on bigger screens */}
+        {/* onClick function added here so the menu will link correctly */}
         <div className="md:hidden" onClick={() => setOpen((prev) => !prev)}>
           <button className="w-10 h-8 flex flex-col justify-between items-center z-50 relative">
             {/* the animate part works with conditionals. if it's open, use the opened variants.. else use the other variable. */}
