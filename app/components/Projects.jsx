@@ -117,7 +117,7 @@ const Projects = () => {
           </div>
         </div>
         {/* Project #6 */}
-        <div className="flex flex-col justify-center items-center gap-4 col-span-2 ">
+        <div className="flex flex-col justify-center items-center gap-4 lg:col-span-2 ">
           <Link href="/projects/furnico" className="relative w-full h-[420px]">
             <Image
               priority={true}
