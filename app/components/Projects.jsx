@@ -118,7 +118,10 @@ const Projects = () => {
         </div>
         {/* Project #6 */}
         <div className="flex flex-col justify-center items-center gap-4 lg:col-span-2 ">
-          <Link href="/projects/furnico" className="relative w-full h-[420px]">
+          <Link
+            href="/projects/furnico"
+            className="relative w-full h-[420px] md:h-[520px]"
+          >
             <Image
               priority={true}
               src={gridimg6}
