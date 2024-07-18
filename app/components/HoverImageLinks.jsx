@@ -5,7 +5,7 @@ import { FiArrowRight } from "react-icons/fi";
 
 const HoverImageLinks = () => {
   return (
-    <section className="max-w-screen-3xl min-h-screen mx-auto px-4 py-4 sm:px-8 sm:py-8">
+    <section className="max-w-screen-3xl min-h-screen mx-auto px-4 py-4 sm:px-8 sm:py-8 lg:px-28">
       <div className="max-w-screen-3xl mx-auto h-full relative">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold py-12">
           Selected Projects

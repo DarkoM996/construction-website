@@ -31,7 +31,7 @@ const AboutValue = () => {
         </div>
       </div>
       {/* Grid #2 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-16 py-8 md:py-12 lg:py-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-16 py-8 md:py-12 lg:px-28">
         {/* Paragraph */}
         <h2 className="text-4xl md:text-5xl lg:text-6xl">What We Do</h2>
         {/* Image */}

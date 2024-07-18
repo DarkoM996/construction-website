@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <div className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-8 py-4 md:py-12">
+    <div className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-8 py-4 md:py-12 lg:px-28">
       {/* Grid */}
       <div className="max-w-screen-3xl mx-auto w-full h-full grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-16">
         {/* Grid element #1 */}
