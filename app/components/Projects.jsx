@@ -16,10 +16,10 @@ const Projects = () => {
     <div className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-8 py-4 md:py-12 md:px-12 lg:px-28">
       {/* Grid */}
       {/* grid-cols-[40%_60%] --> a way of writing grid in Tailwind that gives unique results */}
-      <div className="max-w-screen-3xl mx-auto h-full grid grid-flow-cols-dense grid-flow-row-dense lg:grid-cols-[40%_60%] gap-6">
+      <div className="max-w-screen-3xl mx-auto h-full grid grid-flow-cols-dense grid-flow-row-dense lg:grid-cols-6 gap-6">
         {/* Grid element #1 */}
         {/* Project #1 */}
-        <div className="flex flex-col justify-center items-center gap-4">
+        <div className="flex flex-col justify-center items-center gap-4 md:col-span-2">
           <Link href="/projects/furnico" className="relative w-full h-[420px]">
             <Image
               priority={true}
@@ -38,7 +38,7 @@ const Projects = () => {
           </div>
         </div>
         {/* Project #2 */}
-        <div className="flex flex-col justify-center items-center gap-4 ">
+        <div className="flex flex-col justify-center items-center gap-4 md:col-span-4">
           <Link href="/projects/furnico" className="relative w-full h-[420px]">
             <Image
               priority={true}
@@ -47,7 +47,7 @@ const Projects = () => {
               className="w-full h-full object-cover rounded-3xl hover:scale-90  duration-500 transition-transform"
             />
           </Link>
-          <div className="flex flex-col justify-center items-center p-4 gap-2">
+          <div className="flex flex-col justify-center items-center p-4 gap-2 ">
             <h4 className="text-2xl font-semibold text-primary_backgroundDarkerColor-800">
               Furnico
             </h4>
@@ -57,11 +57,8 @@ const Projects = () => {
           </div>
         </div>
         {/* Project #3 */}
-        <div className="flex flex-col justify-center items-center gap-4 lg:col-span-2">
-          <Link
-            href="/projects/furnico"
-            className="relative w-full h-[420px] lg:h-[620px]"
-          >
+        <div className="flex flex-col justify-center items-center gap-4 md:col-span-4">
+          <Link href="/projects/furnico" className="relative w-full h-[420px]">
             <Image
               priority={true}
               src={gridimg3}
@@ -79,7 +76,7 @@ const Projects = () => {
           </div>
         </div>
         {/* Project #4 */}
-        <div className="flex flex-col justify-center items-center gap-4 ">
+        <div className="flex flex-col justify-center items-center gap-4 md:col-span-2">
           <Link href="/projects/furnico" className="relative w-full h-[420px]">
             <Image
               priority={true}
@@ -98,7 +95,7 @@ const Projects = () => {
           </div>
         </div>
         {/* Project #5 */}
-        <div className="flex flex-col justify-center items-center gap-4 ">
+        <div className="flex flex-col justify-center items-center gap-4 md:col-span-2">
           <Link href="/projects/furnico" className="relative w-full h-[420px]">
             <Image
               priority={true}
@@ -117,11 +114,8 @@ const Projects = () => {
           </div>
         </div>
         {/* Project #6 */}
-        <div className="flex flex-col justify-center items-center gap-4 lg:col-span-2 ">
-          <Link
-            href="/projects/furnico"
-            className="relative w-full h-[420px] md:h-[520px]"
-          >
+        <div className="flex flex-col justify-center items-center gap-4 md:col-span-4 ">
+          <Link href="/projects/furnico" className="relative w-full h-[420px]">
             <Image
               priority={true}
               src={gridimg6}
@@ -139,7 +133,7 @@ const Projects = () => {
           </div>
         </div>
         {/* Project #7 */}
-        <div className="flex flex-col justify-center items-center gap-4 ">
+        <div className="flex flex-col justify-center items-center gap-4 md:col-span-4">
           <Link href="/projects/furnico" className="relative w-full h-[420px]">
             <Image
               priority={true}
@@ -158,7 +152,7 @@ const Projects = () => {
           </div>
         </div>
         {/* Project #8 */}
-        <div className="flex flex-col justify-center items-center gap-4 ">
+        <div className="flex flex-col justify-center items-center gap-4 md:col-span-2">
           <Link href="/projects/furnico" className="relative w-full h-[420px]">
             <Image
               priority={true}
