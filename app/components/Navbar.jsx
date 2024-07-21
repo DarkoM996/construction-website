@@ -75,7 +75,7 @@ function Navbar() {
 
   return (
     // Regular navbar is wrapped basically in two divs with a classname for border
-    <div className="border-b border-primary_backgroundColor-700">
+    <header className="border-b border-primary_backgroundColor-700">
       <div className="max-w-screen-3xl mx-auto w-full h-20 flex justify-between items-center px-6 py-4 lg:px-28">
         {/* Left Side Logo */}
         <Link
@@ -138,7 +138,7 @@ function Navbar() {
           )}
         </div>
       </div>
-    </div>
+    </header>
   );
 }
 
