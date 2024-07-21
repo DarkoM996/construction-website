@@ -4,10 +4,13 @@ const ContactForm = () => {
   return (
     <div className="max-w-screen-3xl mx-auto w-full h-screen relative px-8 py-6 md:px-12 md:py-8 lg:px-28">
       {/* Entire div */}
-      <div className="flex flex-col md:flex-row justify-between items-start gap-6">
-        <h2>Order a Call</h2>
+      <div className="flex flex-col md:flex-row justify-between items-start gap-6 border-t border-primary_backgroundColor-700 py-8">
+        <h2 className="text-4xl md:text-5xl lg:text-6xl ">Order a Call</h2>
         {/* Contact Form on the right */}
-        <div className="flex flex-col justify-start items-start gap-6 w-full md:w-1/2 lg:w-1/3">
+        <form
+          action=""
+          className="flex flex-col justify-start items-start gap-6 w-full md:w-1/2 lg:w-1/3"
+        >
           <input
             type="text"
             placeholder="Name"
@@ -30,7 +33,7 @@ const ContactForm = () => {
           <button className="p-4 bg-black border border-primary_customGrey-950">
             Order a Call
           </button>
-        </div>
+        </form>
       </div>
     </div>
   );
