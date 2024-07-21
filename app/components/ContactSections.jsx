@@ -7,7 +7,7 @@ const ContactSections = () => {
       <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-6">
         <h2 className="text-4xl md:text-5xl lg:text-6xl">Vancouver</h2>
         {/* Paragraph on the right */}
-        <div className="flex flex-col justify-center items-center gap-6 w-1/3">
+        <div className="flex flex-col justify-center items-center gap-6 w-full md:w-1/3">
           {/* First item */}
           <div className="flex flex-col md:flex-row justify-start items-center gap-6 text-xl border-b border-primary_customGrey-900 py-4 w-full">
             <div>Phone</div>
@@ -16,10 +16,15 @@ const ContactSections = () => {
           {/* Second item */}
           <div className="flex flex-col md:flex-row justify-start gap-6 text-xl border-b border-primary_customGrey-900 py-4 w-full">
             <div>Email</div>
-            <div>contact@camyorkconstruction.com</div>
+            <div className="flex flex-col md:flex-row justify-start items-center w-full">
+              contact@
+              <div className="flex flex-col md:flex-row justify-start items-center">
+                camyorkconstruction.com
+              </div>
+            </div>
           </div>
           {/* Third item */}
-          <div className="flex gap-6 text-xl border-b border-primary_customGrey-900 py-4 w-full">
+          <div className="flex flex-col md:flex-row justify-start gap-6 text-xl border-b border-primary_customGrey-900 py-4 w-full">
             <div>Address</div>
             <div>Vancouver Beach 125 Str. </div>
           </div>
