@@ -20,7 +20,7 @@ const Projects = () => {
         {/* Grid element #1 */}
         {/* Project #1 */}
         <div className="flex flex-col justify-center items-center gap-4 md:col-span-2">
-          <Link href="/projects/furnico" className="relative w-full h-[420px]">
+          <Link href="/projects/hotel" className="relative w-full h-[420px]">
             <Image
               priority={true}
               src={gridimg1}
