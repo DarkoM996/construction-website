@@ -39,7 +39,10 @@ const Projects = () => {
         </div>
         {/* Project #2 */}
         <div className="flex flex-col justify-center items-center gap-4 md:col-span-4">
-          <Link href="/projects/furnico" className="relative w-full h-[420px]">
+          <Link
+            href="/projects/luxurybuilding"
+            className="relative w-full h-[420px]"
+          >
             <Image
               priority={true}
               src={gridimg2}
@@ -58,7 +61,10 @@ const Projects = () => {
         </div>
         {/* Project #3 */}
         <div className="flex flex-col justify-center items-center gap-4 md:col-span-4">
-          <Link href="/projects/furnico" className="relative w-full h-[420px]">
+          <Link
+            href="/projects/luxuryhome"
+            className="relative w-full h-[420px]"
+          >
             <Image
               priority={true}
               src={gridimg3}
@@ -77,7 +83,10 @@ const Projects = () => {
         </div>
         {/* Project #4 */}
         <div className="flex flex-col justify-center items-center gap-4 md:col-span-2">
-          <Link href="/projects/furnico" className="relative w-full h-[420px]">
+          <Link
+            href="/projects/corporatebuilding"
+            className="relative w-full h-[420px]"
+          >
             <Image
               priority={true}
               src={gridimg4}
