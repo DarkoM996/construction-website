@@ -24,7 +24,7 @@ const ContactForm = () => {
             className="my-2 p-2 bg-primary_backgroundColor-900 border-b border-primary_customGrey-800 w-full"
           />
           <textarea
-            className="bg-primary_backgroundColor-900 p-2 my-2 border-b border-primary_customGrey-800  w-full"
+            className="bg-primary_backgroundColor-900 p-2 my-2 border-b text-white border-primary_customGrey-800  w-full"
             name="message"
             rows="10"
             placeholder="Your message here"
