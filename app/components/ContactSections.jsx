@@ -14,11 +14,11 @@ const ContactSections = () => {
             <div>065 887 999</div>
           </div>
           {/* Second item */}
-          <div className="flex flex-col md:flex-row justify-start gap-6 text-xl border-b border-primary_customGrey-900 py-4 w-full">
+          <div className="flex flex-col md:flex-row justify-start items-start gap-6 text-xl border-b border-primary_customGrey-900 py-4 w-full">
             <div>Email</div>
-            <div className="flex flex-col md:flex-row justify-start items-center w-full">
+            <div className="flex flex-row md:flex-col lg:flex-row justify-start items-start w-full">
               contact@
-              <div className="flex flex-col md:flex-row justify-start items-center">
+              <div className="flex flex-wrap justify-start items-center">
                 camyorkconstruction.com
               </div>
             </div>
