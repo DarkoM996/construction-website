@@ -30,7 +30,7 @@ const ContactForm = () => {
             placeholder="Your message here"
           ></textarea>
 
-          <button className="p-4 bg-black border border-primary_customGrey-950">
+          <button className="px-8 py-4 bg-black border border-primary_customGrey-950 rounded-full">
             Order a Call
           </button>
         </form>
