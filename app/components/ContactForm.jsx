@@ -8,9 +8,19 @@ const ContactForm = () => {
         <h2>Order a Call</h2>
         {/* Contact Form on the right */}
         <div className="flex flex-col gap-6 w-full md:w-1/2 lg:w-1/3">
-          <label htmlFor="name">Name</label>
-          <label htmlFor="email">Name</label>
-          <label htmlFor="name">Name</label>
+          <input
+            type="text"
+            placeholder="Name"
+            name="name"
+            className="my-4 p-2 bg-primary_backgroundColor-900 border-b border-primary_customGrey-800"
+          />
+          <input
+            type="text"
+            placeholder="Name"
+            name="name"
+            className="my-4 p-2 bg-primary_backgroundColor-900 border-b border-primary_customGrey-800"
+          />
+
           <button className="p-4 bg-black border border-primary_customGrey-950">
             Order a Call
           </button>
