@@ -9,7 +9,7 @@ const ContactSections = () => {
         {/* Paragraph on the right */}
         <div className="flex flex-col justify-center items-center gap-6 w-full md:w-1/3">
           {/* First item */}
-          <div className="flex flex-col md:flex-row justify-start items-center gap-6 text-xl border-b border-primary_customGrey-900 py-4 w-full">
+          <div className="flex flex-col md:flex-row justify-start items-start gap-6 text-xl border-b border-primary_customGrey-900 py-4 w-full">
             <div>Phone</div>
             <div>065 887 999</div>
           </div>
@@ -24,7 +24,7 @@ const ContactSections = () => {
             </div>
           </div>
           {/* Third item */}
-          <div className="flex flex-col md:flex-row justify-start gap-6 text-xl border-b border-primary_customGrey-900 py-4 w-full">
+          <div className="flex flex-col md:flex-row justify-start items-start gap-6 text-xl border-b border-primary_customGrey-900 py-4 w-full">
             <div>Address</div>
             <div>Vancouver Beach 125 Str. </div>
           </div>
