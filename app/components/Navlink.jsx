@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Router } from "next/router";
 
 const Navlink = ({ link }) => {
   const pathName = usePathname();
@@ -9,9 +10,11 @@ const Navlink = ({ link }) => {
   console.log(pathName);
   return (
     <Link
-      className={`rounded-xl p-2 ${
-        pathName === link.url && "bg-white text-black"
-      }`}
+      className={
+        Router.pathname === link.url || Router.pathname === `${link.url}/[slug]`
+          ? "{`bg-white p-2 text-black rounded-full`}"
+          : ""
+      }
       href={link.url}
     >
       {link.title}
