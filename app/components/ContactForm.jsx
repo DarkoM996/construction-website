@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="max-w-screen-3xl mx-auto w-full h-screen relative px-8 py-6 md:px-12 md:py-8 lg:px-28">
+    <div className="max-w-screen-3xl mx-auto w-full h-2/3 relative px-8 py-6 md:px-12 md:py-8 lg:px-28">
       {/* Entire div */}
       <div className="flex flex-col md:flex-row justify-between items-start gap-6 border-t border-primary_backgroundColor-700 py-8">
         <h2 className="text-4xl md:text-5xl lg:text-6xl ">Order a Call</h2>
