@@ -13,13 +13,13 @@ const ContactSections = () => {
           </div>
           {/* Second item */}
           <div className="flex gap-6 text-xl border-b border-primary_customGrey-900 py-4">
-            <div>Phone</div>
-            <div>065 887 999</div>
+            <div>Email</div>
+            <div>contact@camyorkconstruction.com</div>
           </div>
           {/* Third item */}
           <div className="flex gap-6 text-xl border-b border-primary_customGrey-900 py-4">
-            <div>Phone</div>
-            <div>065 887 999</div>
+            <div>Address</div>
+            <div>Vancouver Beach 125 Str. </div>
           </div>
         </div>
       </div>
