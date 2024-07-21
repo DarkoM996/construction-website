@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
 
 const ContactSections = () => {
   return (
-    <div>ContactSections</div>
-  )
-}
+    <div className="max-w-screen-3xl mx-auto w-full h-screen relative px-6 py-4 md:py-8 lg:px-28 ">
+      <div>
+        <h2>Vancouver</h2>
+        <div>
+          <div>Phone</div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default ContactSections
+export default ContactSections;
