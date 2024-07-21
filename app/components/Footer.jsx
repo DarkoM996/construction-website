@@ -7,11 +7,12 @@ const Footer = () => {
     <footer className="max-w-screen-3xl mx-auto w-full h-3/4 relative px-6 py-4 lg:px-28">
       {/* CTA centered in the middle */}
       <div className="flex flex-col justify-center items-center w-full h-full ">
+        {/* This will be go to the client's actual web page*/}
         <Link
-          href="/contact"
+          href="#"
           className="text-5xl md:text-6xl lg:text-8xl items-center text-primary_lighterColor-200 hover:text-primary_customGrey-300"
         >
-          Contact Us
+          contact@camyork.com
         </Link>
       </div>
       {/* Bottom part section */}
