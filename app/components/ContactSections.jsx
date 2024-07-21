@@ -6,7 +6,10 @@ const ContactSections = () => {
       <div>
         <h2>Vancouver</h2>
         <div>
-          <div>Phone</div>
+          <div className="flex gap-6">
+            <div>Phone</div>
+            <div>065 887 999</div>
+          </div>
         </div>
       </div>
     </div>
