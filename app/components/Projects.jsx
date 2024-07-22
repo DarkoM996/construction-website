@@ -13,7 +13,7 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <div className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-8 py-4 md:py-12 md:px-12 lg:px-28">
+    <section className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-8 py-4 md:py-12 md:px-12 lg:px-28">
       {/* Grid */}
       {/* grid-cols-[40%_60%] --> a way of writing grid in Tailwind that gives unique results */}
       <div className="max-w-screen-3xl mx-auto h-full grid grid-flow-cols-dense grid-flow-row-dense lg:grid-cols-6 gap-6">
@@ -180,7 +180,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
