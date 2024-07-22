@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import backgroundimage from "../../../public/images/picture2.jpg";
 
-// NOTE: Because of the retarded way that Next.Js imports components, I keep getting a non existant error that won't allow me to keep the established model by having an empty fragment filled with components. So now I will do the entire page here in one page unfortunately.
+// NOTE: Because of the retarded way that Next.Js imports components, I keep getting a non existant error for this image that won't allow me to keep the established model by having an empty fragment filled with components. So now I will do the entire page here in one page unfortunately.
 
 const page = () => {
   return (
