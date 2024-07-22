@@ -125,6 +125,7 @@ const page = () => {
             priority
             width={600}
             height={600}
+            sizes=""
             src={hotelimage}
             alt="hotel image"
             className="w-full h-full object-cover rounded-3xl"
