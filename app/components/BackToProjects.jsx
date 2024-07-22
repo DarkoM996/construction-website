@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const BackToProjects = () => {
   return (
-    <footer className="max-w-screen-3xl mx-auto w-full h-full relative px-6 py-4 lg:px-28">
+    <footer className="max-w-screen-3xl mx-auto w-full h-[700px] relative px-6 py-4 lg:px-28">
       {/* CTA centered in the middle */}
       <div className="flex flex-col justify-center items-center w-full h-full ">
         {/* This will be go to the client's actual web page. Here's the code below. For now, the link won't go anywhere.*/}

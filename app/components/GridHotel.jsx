@@ -9,7 +9,7 @@ import hotelimage5 from "../../public/images/hotel image 6.jpg";
 
 const GridHotel = () => {
   return (
-    <div className="max-w-screen-3xl mx-auto w-full h-full relative px-6 py-4 md:px-12 md:py-10 lg:px-28">
+    <div className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-4 md:px-12 md:py-10 lg:px-28">
       {/* Section 3.. a grid of images */}
       <div className="grid grid-cols-1 gap-10 py-12 md:py-16 lg:py-32">
         <div className="relative w-full h-[600px]">
