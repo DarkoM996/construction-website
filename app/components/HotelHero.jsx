@@ -2,9 +2,7 @@ import Image from "next/image";
 import React from "react";
 import backgroundimage from "../../../public/images/picture2.jpg";
 
-// NOTE: Because of the retarded way that Next.Js imports components, I keep getting a non existant error that won't allow me to keep the established model by having an empty fragment filled with components. So now I will do the entire page here in one page unfortunately.
-
-const page = () => {
+const HotelHero = () => {
   return (
     <section className="max-w-screen-3xl mx-auto w-full h-full relative px-6 py-4 md:px-12 md:py-10 lg:px-28">
       {/* Grid for the entire section */}
@@ -42,4 +40,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default HotelHero;
