@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import backgroundimage from "../../../public/images/picture14.jpg";
+import backgroundimage from "../../../public/images/picture2.jpg";
 
 const page = () => {
   return (
