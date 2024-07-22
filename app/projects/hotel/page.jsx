@@ -62,23 +62,22 @@ const page = () => {
             <div>Address</div>
             <div>Vancouver Beach 125 Str. </div>
           </div>
-
-          {/* Third item */}
+          {/* Fourth item */}
           <div className="flex flex-col md:flex-row justify-between items-start gap-6 text-xl border-b border-primary_customGrey-800 py-4 w-full">
             <div>Bim</div>
             <div>Genry Technologies Co.Ltd</div>
           </div>
-          {/* Third item */}
+          {/* Fifth item */}
           <div className="flex flex-col md:flex-row justify-between items-start gap-6 text-xl border-b border-primary_customGrey-800 py-4 w-full">
             <div>Landscape Architect</div>
             <div>Vancouver Institute </div>
           </div>
-          {/* Third item */}
+          {/* Sixth item */}
           <div className="flex flex-col md:flex-row justify-between items-start gap-6 text-xl border-b border-primary_customGrey-800 py-4 w-full">
             <div>Interior Design</div>
             <div>Vancouver Architects </div>
           </div>
-          {/* Third item */}
+          {/* Seventh item */}
           <div className="flex flex-col md:flex-row justify-between items-start gap-6 text-xl border-b border-primary_customGrey-800 py-4 w-full">
             <div>Mechanical Engineers </div>
             <div>Vancouver Era Architectural Design, Ltd </div>
