@@ -6,6 +6,7 @@ import hotelimage2 from "../../../public/images/hotel image 2.jpg";
 import hotelimage3 from "../../../public/images/hotel image 3.jpg";
 import hotelimage4 from "../../../public/images/hotel image 4.jpg";
 import hotelimage5 from "../../../public/images/hotel image 6.jpg";
+import BackToProjects from "@/app/components/BackToProjects";
 
 // NOTE: Because of the retarded way that Next.Js imports components, I keep getting a non existant error for this image that won't allow me to keep the established model by having an empty fragment filled with components. So now I will do the entire page here in one page unfortunately.
 
@@ -131,6 +132,10 @@ const page = () => {
             className="w-full h-full object-cover rounded-3xl"
           />
         </div>
+      </div>
+      {/* Section */}
+      <div className="w-full h-screen">
+        <BackToProjects />
       </div>
     </section>
   );
