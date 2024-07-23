@@ -17,10 +17,10 @@ const HoverImageLinks = () => {
           href="/hotelconstruction"
         />
         <Link
-          heading="Roof Replacement"
-          subheading="Building a roof in Ontario"
+          heading="Luxury Hotel"
+          subheading="Building an elite hotel in Vancouver"
           imgSrc="/images/picture2.jpg"
-          href="/hotelconstruction"
+          href="/projects/hotel"
         />
         <Link
           heading="Carlton Hotel"
