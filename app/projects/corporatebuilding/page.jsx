@@ -1,3 +1,4 @@
+import BackToProjects from "@/app/components/BackToProjects";
 import CorporateBuildingAbout from "@/app/components/CorporateBuildingAbout";
 import CorporateBuildingGrid from "@/app/components/CorporateBuildingGrid";
 import CorporateHero from "@/app/components/CorporateHero";
@@ -9,6 +10,7 @@ const page = () => {
       <CorporateHero />
       <CorporateBuildingAbout />
       <CorporateBuildingGrid />
+      <BackToProjects />
     </>
   );
 };
