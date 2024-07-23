@@ -2,6 +2,7 @@
 import React from "react";
 import hero from "/public/images/picture6.jpg";
 import Image from "next/image";
+import Link from "next/link";
 
 // This will have a component structure similar to the React Traversy Crash Course 2024.. empty fragments filled with bunch of components
 // In Next Js, there are 2 ways to get sections to get full screen without overlap: h-[1080px] aka custom value. And then in a div below, you can write h-full so it can take a full value of that number.
@@ -35,12 +36,18 @@ const Hero = () => {
           </p>
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row w-full gap-4">
-            <button className="px-8 py-4 bg-white hover:bg-primary_lighterColor-200 text-black rounded-full border border-black w-full sm:w-[160px]">
+            <Link
+              href="/projects"
+              className="px-8 py-4 bg-white hover:bg-primary_lighterColor-200 text-black rounded-full border border-black w-full sm:w-[160px] text-center"
+            >
               Get Started
-            </button>
-            <button className="px-8 py-4 bg-primary_backgroundColor-900 hover:bg-primary_backgroundColor-800 text-white rounded-full border border-white w-full  sm:w-[160px]">
-              Projects
-            </button>
+            </Link>
+            <Link
+              href="/contact"
+              className="px-8 py-4 bg-primary_backgroundColor-900 hover:bg-primary_backgroundColor-800 text-white rounded-full border border-white w-full  sm:w-[160px] text-center"
+            >
+              Contact
+            </Link>
           </div>
         </div>
       </div>
