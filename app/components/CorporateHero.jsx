@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import backgroundimage from "../../public/images/hotel image 1.jpg";
+import backgroundimage from "../../public/images/picture5.jpg";
 
 const CorporateHero = () => {
   return (
