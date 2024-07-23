@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const CorporateBuildingGrid = () => {
-  return (
-    <div>CorporateBuildingGrid</div>
-  )
-}
+  return <div>CorporateBuildingGrid</div>;
+};
 
-export default CorporateBuildingGrid
+export default CorporateBuildingGrid;

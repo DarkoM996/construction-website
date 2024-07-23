@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutHotel = () => {
   return (
-    <div className="max-w-screen-3xl mx-auto w-full h-[70%] relative px-6 py-4 md:py-10 lg:pb-24 lg:px-28">
+    <section className="max-w-screen-3xl mx-auto w-full h-[70%] relative px-6 py-4 md:py-10 lg:pb-24 lg:px-28">
       <div className="flex flex-col lg:flex-row justify-between items-start py-8 gap-6 lg:gap-32 lg:py-16">
         <h2 className="text-4xl md:text-5xl lg:text-6xl w-full lg:w-2/3">
           We recently led the development of Building X, a premium building that
@@ -48,7 +48,7 @@ const AboutHotel = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
