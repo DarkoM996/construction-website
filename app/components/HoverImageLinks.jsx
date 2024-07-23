@@ -11,10 +11,10 @@ const HoverImageLinks = () => {
           Selected Projects
         </h2>
         <Link
-          heading="Hotel Construction"
-          subheading="Building an elite hotel in Ontario"
+          heading="Luxury Building"
+          subheading="Building a luxury building in Ontario"
           imgSrc="/images/picture1.jpg"
-          href="/hotelconstruction"
+          href="/projects/luxurybuilding"
         />
         <Link
           heading="Luxury Hotel"
@@ -29,16 +29,16 @@ const HoverImageLinks = () => {
           href="/hotelconstruction"
         />
         <Link
-          heading="Modern Building"
+          heading="Luxury Home"
           subheading="Building a modern building in Ottawa"
           imgSrc="/images/picture4.jpg"
-          href="/hotelconstruction"
+          href="/projects/luxuryhome"
         />
         <Link
-          heading="Resident Building"
+          heading="Corporate Building"
           subheading="Building a residence in Vancouver"
           imgSrc="/images/picture5.jpg"
-          href="/hotelconstruction"
+          href="/projects/corporatebuilding"
         />
         <Link
           heading="Hotel Elite"
